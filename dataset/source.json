@@ -1,0 +1,80 @@
+{
+	"name": "source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "project-metadata.json",
+				"container": "cont1lenzisa1"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"application": {
+					"type": "string"
+				},
+				"are_the_results_confidential": {
+					"type": "string"
+				},
+				"benefited_region": {
+					"type": "string"
+				},
+				"code": {
+					"type": "string"
+				},
+				"commercial_focal_point": {
+					"type": "string"
+				},
+				"description": {
+					"type": "string"
+				},
+				"expected_results": {
+					"type": "string"
+				},
+				"id": {
+					"type": "integer"
+				},
+				"objective": {
+					"type": "string"
+				},
+				"owner": {
+					"type": "string"
+				},
+				"package": {
+					"type": "string"
+				},
+				"partners": {
+					"type": "string"
+				},
+				"phase": {
+					"type": "string"
+				},
+				"sector": {
+					"type": "string"
+				},
+				"title": {
+					"type": "string"
+				},
+				"type_of_activity": {
+					"type": "string"
+				},
+				"type_of_steel": {
+					"type": "string"
+				},
+				"types_of_ideas": {
+					"type": "string"
+				},
+				"url": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
